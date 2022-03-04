@@ -2,11 +2,10 @@
 body{
   background: #007bff;
   font-weight: 300;
-  text-align: center;
-  
+  text-align: center;  
 }
   h1 {
-    padding: 30px 20px 0px 20px ;
+    padding: 10px ;
     font-size: 24px;
     text-align: center;
   }
@@ -21,20 +20,20 @@ body{
     padding-top: 20px;
   }
   #results img {
-      padding-bottom:30px ;
-      padding-top:30px ;
+      padding-bottom:10px ;
+      padding-top:10px ;
       max-width: 500px;
       width: 50%;
   }
   #results{
-    padding: 20px 20px 10px 20px ;
+    padding: 10px ;
     font-size: 22px;
     text-align: center;
   }
   
 .question{
-  font-size: 30px;
-  margin-bottom: 10px;
+   font-size: 30px;
+   margin-bottom: 10px;
 }
 .answers {
   margin-bottom: 20px;
@@ -47,24 +46,19 @@ body{
 }
 button{
   font-family: 'Work Sans', sans-serif;
-	font-size: 22px;
-	background-color: #279;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-    margin-top: 50px;
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 button:hover{
-	background-color: #38a;
+  background-color: #38a;
 }
-
-
-
-
-
 .slide{
   position: absolute;
   left: 0px;
@@ -85,4 +79,7 @@ button:hover{
 }
 #quest{
     display: none;
+}
+.row {
+  margin: 0px;
 }
